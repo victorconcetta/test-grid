@@ -12,6 +12,7 @@ body{
     background: rgb(226, 226, 12);
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 .buttom{
     display: flex;
@@ -88,6 +89,7 @@ body{
    gap: 20px;
    padding: 30px 30px;
     justify-content: center;
+    padding-top: 80px;
 }
 .box{
     display: flex;
@@ -105,6 +107,8 @@ body{
     font-weight: 900;
     font-size: 20px;
     text-align: center;
+    inline-size: 100%;
+overflow-wrap: break-word;
 
 }
 .checkboxm{
@@ -152,5 +156,6 @@ visibility: hidden;
 }
 .conteudo{
        padding: 20px 20px;
+        padding-top: 80px;
 }
 }
